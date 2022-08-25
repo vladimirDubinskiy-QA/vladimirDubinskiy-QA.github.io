@@ -45,7 +45,7 @@ function handleParticles(){
       particlesArray[i].update()
       particlesArray[i].draw()
   }
-  // Если частиц больше 200 - удаляем 20
+  // Если частиц больше 320 - удаляем 20
   if (particlesArray.length > 320){
       for (i = 0; i < 20; i++){
       particlesArray.pop(particlesArray[i]);
